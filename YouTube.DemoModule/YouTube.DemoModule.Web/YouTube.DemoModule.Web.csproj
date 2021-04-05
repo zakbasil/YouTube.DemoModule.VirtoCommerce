@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YouTube.DemoModule.Core\YouTube.DemoModule.Core.csproj" />
+    <ProjectReference Include="..\YouTube.DemoModule.Data\YouTube.DemoModule.Data.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="module.manifest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dist\" />
+  </ItemGroup>
+
+</Project>

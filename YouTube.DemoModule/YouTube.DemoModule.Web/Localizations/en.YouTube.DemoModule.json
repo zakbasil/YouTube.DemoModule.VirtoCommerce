@@ -1,0 +1,28 @@
+{
+  "youTube.demoModule": {
+    "blades": {
+      "hello-world": {
+        "title": "YouTube Video"
+      }
+    }
+  },
+  "permissions": {
+    "youTubeDemoModule:access": "Open YouTubeDemoModule menu",
+    "youTubeDemoModule:create": "Create YouTubeDemoModule related data",
+    "youTubeDemoModule:read": "View YouTubeDemoModule related data",
+    "youTubeDemoModule:update": "Update YouTubeDemoModule related data",
+    "youTubeDemoModule:delete": "Delete YouTubeDemoModule related data"
+  },
+  "settings": {
+    "YouTubeDemoModule": {
+      "YouTubeDemoModulePassword": {
+        "title": "YouTubeDemoModule Password",
+        "description": "YouTubeDemoModule Password setting"
+      },
+      "YouTubeDemoModuleEnabled": {
+        "title": "YouTubeDemoModule Enabled",
+        "description": "YouTubeDemoModule Enabled setting"
+      }
+    }
+  }
+}

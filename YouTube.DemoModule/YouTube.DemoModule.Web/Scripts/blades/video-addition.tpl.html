@@ -1,0 +1,69 @@
+<div class="blade-content blade-content __large-wide">
+    <div class="blade-inner">
+        <div class="inner-block">
+            <form class="form" name="formScope">
+                <div ng-init="setForm(formScope)">
+                    <label class="form-label">Product Id</label>
+                    <div class="form-input">
+                        <input class="__small" ng-model="blade.currentEntity.productId" focus-on="" required rows="1"  >
+                    </div>
+                </div>
+                <div ng-init="setForm(formScope)">
+                    <label class="form-label">Video Title</label>
+                    <div class="form-input">
+                        <textarea class="__small" ng-model="blade.currentEntity.videoTitle" focus-on="" required rows="1"  > </textarea>
+                    </div>
+                </div>
+                <div ng-init="setForm(formScope)">
+                    <label class="form-label">YouTube Video URL</label>
+                    <div class="form-input">
+                        <input class="__small" ng-model="blade.currentEntity.youtubeId" focus-on="" required rows="1"  >
+                    </div>
+                </div>
+
+                <div ng-init="setForm(formScope)">
+                    <label class="form-label">Create Date</label>
+                    <div class="__calendar form-input">
+                        <input ng-model="blade.currentEntity.createdDate"
+                               
+                                >
+                        <button type="button" class="btn"  >
+                            <i class="btn-ico fa fa-calendar"></i>
+                        </button>
+                    </div>
+                </div>
+
+
+
+                <div ng-init="setForm(formScope)">
+                    <label class="form-label">Created By</label>
+                    <div class="form-input">
+                        <input ng-model="blade.currentEntity.createdBy" focus-on="" required >
+                    </div>
+                </div>
+                <div ng-init="setForm(formScope)">
+                    <label class="form-label">Modified By</label>
+                    <div class="form-input">
+                        <input ng-model="blade.currentEntity.modifiedBy" focus-on="" required  >
+                    </div>
+                </div>
+                <div ng-init="setForm(formScope)">
+                    <label class="form-label">Modified Date</label>
+                    <div class="__calendar form-input">
+                        <input ng-model="blade.currentEntity.modifiedDate"
+                                >
+                        <button type="button" class="btn"  >
+                            <i class="btn-ico fa fa-calendar"></i>
+                        </button>
+                    </div>
+                </div>
+                <div ng-init="setForm(formScope)">
+                    <label class="form-label">ID</label>
+                    <div class="form-input">
+                        <input ng-model="blade.currentEntity.id" focus-on="" required >
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<module>
+    <id>YouTube.DemoModule</id>
+    <version>1.0.0</version>
+    <version-tag></version-tag>
+    <platformVersion>3.0.0</platformVersion>
+    <dependencies>
+<!--        <dependency id="VirtoCommerce.Core" version="3.0.0" /> -->
+    </dependencies>
+
+    <title>YouTube.DemoModule</title>
+    <description>Enter your module description here.</description>
+    <authors>
+        <author>basil.skaria</author>
+    </authors>
+    <owners>
+      <owner></owner>
+    </owners>
+
+    <releaseNotes>First version.</releaseNotes>
+    <copyright>Copyright © 2021 . All rights reserved</copyright>
+    <tags>extension module</tags>
+  
+    <assemblyFile>YouTube.DemoModule.Web.dll</assemblyFile>
+    <moduleType>YouTube.DemoModule.Web.Module, YouTube.DemoModule.Web</moduleType>
+
+</module>
